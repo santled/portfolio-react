@@ -7,11 +7,11 @@ function Proyectos() {
       <div className="proyectos-grid">
         <div className="proyecto-card">
           <h3>Mi Portafolio</h3>
-          <p>React + CSS. Un sitio responsive para mostrar mi trabajo y experiencia.</p>
+          <p>Desarrollado con React, incluye secciones de presentación, estudios y habilidades.</p>
         </div>
         <div className="proyecto-card">
-          <h3>Clon de Google</h3>
-          <p>Simulación de búsqueda usando React y una API falsa.</p>
+          <h3>Sistema de Gestión de Estacionamiento</h3>
+          <p>Desarrollado con JavaScript, incluye control de precio por tipo de vehículo y por tiempo, y control de identidad por patente</p>
         </div>
       </div>
     </section>

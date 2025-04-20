@@ -6,7 +6,7 @@ function Idiomas() {
       <h2>Idiomas</h2>
       <ul>
         <li>Español – Nativo</li>
-        <li>Inglés – Intermedio alto (B2)</li>
+        <li>Inglés – Intermedio - Lectura y escritura tecnica</li>
         
       </ul>
     </section>

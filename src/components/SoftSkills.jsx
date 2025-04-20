@@ -3,7 +3,7 @@ import React from "react";
 function SoftSkills() {
   return (
     <section className="seccion" id="softskills">
-      <h2>Habilidades Blandas</h2>
+      <h2>Habilidades</h2>
       <ul>
         <li>Trabajo en equipo</li>
         <li>Comunicación efectiva</li>
