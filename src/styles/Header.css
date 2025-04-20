@@ -1,0 +1,23 @@
+.header-container {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .perfil-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #222;
+  }
+  
