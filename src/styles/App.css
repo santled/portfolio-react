@@ -1,7 +1,15 @@
 html {
   scroll-behavior: smooth;
-  font-family: "Segoe UI", sans-serif;
-  background-color: #f8f9fa;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
   margin: 0;
   padding: 0;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+

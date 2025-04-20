@@ -1,18 +1,53 @@
 .header {
   text-align: center;
-  padding: 60px 20px;
-  background-color: #ffffff;
-  color: #222;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
 }
 
-.header h1 {
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+}
+
+.profile-text h1 {
   font-size: 2.5rem;
-  margin-bottom: 10px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #333;
 }
 
-.header p {
+.profile-text p {
   font-size: 1.2rem;
   color: #555;
+  margin-bottom: 15px;
 }
 
-  
+.about-me p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.subtitulo {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: #444;
+}
+
