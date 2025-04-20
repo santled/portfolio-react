@@ -22,7 +22,7 @@ function Footer() {
           GitHub
         </a>
       </div>
-      <p>© 2025 Juan Pérez. Todos los derechos reservados.</p>
+      <p>© 2025 Ledesma Santiago. Todos los derechos reservados.</p>
     </footer>
   );
 }

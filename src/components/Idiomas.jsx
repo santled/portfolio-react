@@ -7,7 +7,7 @@ function Idiomas() {
       <ul>
         <li>Español – Nativo</li>
         <li>Inglés – Intermedio alto (B2)</li>
-        <li>Portugués – Básico</li>
+        
       </ul>
     </section>
   );
