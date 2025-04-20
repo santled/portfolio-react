@@ -1,23 +1,22 @@
 import React from "react";
 
-const proyectos = [
-  { nombre: "Portfolio Personal", descripcion: "Sitio web en React con info personal." },
-  { nombre: "App de Tareas", descripcion: "Gestor de tareas con React y localStorage." }
-];
-
 function Proyectos() {
   return (
-    <div>
-      <h2>Proyectos Realizados</h2>
-      <ul>
-        {proyectos.map((proyecto, index) => (
-          <li key={index}>
-            <strong>{proyecto.nombre}</strong>: {proyecto.descripcion}
-          </li>
-        ))}
-      </ul>
-    </div>
+    <section className="seccion" id="proyectos">
+      <h2>Proyectos</h2>
+      <div className="proyectos-grid">
+        <div className="proyecto-card">
+          <h3>Mi Portafolio</h3>
+          <p>React + CSS. Un sitio responsive para mostrar mi trabajo y experiencia.</p>
+        </div>
+        <div className="proyecto-card">
+          <h3>Clon de Google</h3>
+          <p>Simulación de búsqueda usando React y una API falsa.</p>
+        </div>
+      </div>
+    </section>
   );
 }
 
 export default Proyectos;
+

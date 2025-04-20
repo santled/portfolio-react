@@ -1,6 +1,5 @@
-// src/components/Navbar.jsx
 import React, { useState } from "react";
-import "./Navbar.css";
+import "../styles/NavBar.css";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,22 +8,21 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="navbar-container">
-        <h1 className="logo">MiPortafolio</h1>
-        <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#sobremi">Sobre mí</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-        <div className="menu-icon" onClick={toggleMenu}>
-          <div className={`bar1 ${isOpen ? "change" : ""}`}></div>
-          <div className={`bar2 ${isOpen ? "change" : ""}`}></div>
-          <div className={`bar3 ${isOpen ? "change" : ""}`}></div>
-        </div>
+      <div className="logo">Mi Portafolio</div>
+      <div className={`nav-links ${isOpen ? "open" : ""}`}>
+        <a href="#estudios">Estudios</a>
+        <a href="#idiomas">Idiomas</a>
+        <a href="#softskills">SoftSkills</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#footer">Contacto</a>
+      </div>
+      <div className="burger" onClick={toggleMenu}>
+        ☰
       </div>
     </nav>
   );
 }
 
 export default Navbar;
+

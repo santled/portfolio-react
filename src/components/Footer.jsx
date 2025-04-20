@@ -1,13 +1,13 @@
 import React from "react";
+import "../styles/Footer.css";
 
 function Footer() {
   return (
-    <footer>
-      <p>© 2025 Tu Nombre</p>
-      <a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
-      <a href="https://github.com" target="_blank">GitHub</a>
+    <footer className="footer" id="footer">
+      <p>© 2025 Juan Pérez. Todos los derechos reservados.</p>
     </footer>
   );
 }
 
 export default Footer;
+

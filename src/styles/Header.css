@@ -1,23 +1,18 @@
-.header-container {
-    background-color: #f4f4f4;
-    padding: 2rem;
-    text-align: center;
-    border-bottom: 2px solid #ccc;
-  }
-  
-  .header-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-  }
-  
-  .perfil-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #222;
-  }
+.header {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  color: #222;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
   

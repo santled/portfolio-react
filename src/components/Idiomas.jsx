@@ -1,18 +1,17 @@
 import React from "react";
 
-const idiomas = ["Español (nativo)", "Inglés (intermedio)"];
-
 function Idiomas() {
   return (
-    <div>
+    <section className="seccion" id="idiomas">
       <h2>Idiomas</h2>
       <ul>
-        {idiomas.map((idioma, index) => (
-          <li key={index}>{idioma}</li>
-        ))}
+        <li>Español – Nativo</li>
+        <li>Inglés – Intermedio alto (B2)</li>
+        <li>Portugués – Básico</li>
       </ul>
-    </div>
+    </section>
   );
 }
 
 export default Idiomas;
+

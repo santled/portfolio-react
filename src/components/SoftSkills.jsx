@@ -1,18 +1,19 @@
 import React from "react";
 
-const habilidades = ["Comunicación", "Trabajo en equipo", "Resolución de problemas"];
-
 function SoftSkills() {
   return (
-    <div>
-      <h2>Soft Skills</h2>
+    <section className="seccion" id="softskills">
+      <h2>Habilidades Blandas</h2>
       <ul>
-        {habilidades.map((skill, index) => (
-          <li key={index}>{skill}</li>
-        ))}
+        <li>Trabajo en equipo</li>
+        <li>Comunicación efectiva</li>
+        <li>Resolución de problemas</li>
+        <li>Adaptabilidad</li>
+        <li>Pensamiento crítico</li>
       </ul>
-    </div>
+    </section>
   );
 }
 
 export default SoftSkills;
+

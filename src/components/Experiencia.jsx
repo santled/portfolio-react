@@ -1,23 +1,22 @@
 import React from "react";
 
-const experiencia = [
-  { empresa: "Freelance", puesto: "Desarrollador Web", año: "2023 - Presente" },
-  { empresa: "Prácticas UTN", puesto: "Asistente de Programación", año: "2022" }
-];
-
 function Experiencia() {
   return (
-    <div>
-      <h2>Experiencia Laboral</h2>
+    <section className="seccion" id="experiencia">
+      <h2>Experiencia</h2>
       <ul>
-        {experiencia.map((exp, index) => (
-          <li key={index}>
-            <strong>{exp.puesto}</strong> en {exp.empresa} ({exp.año})
-          </li>
-        ))}
+        <li>
+          <strong>Desarrollador Frontend Jr.</strong> – Empresa ABC (2023 - Actualidad)<br />
+          React, Tailwind, consumo de APIs REST.
+        </li>
+        <li>
+          <strong>Prácticas en desarrollo web</strong> – Startup XYZ (2022)<br />
+          Maquetación con HTML, CSS, JavaScript.
+        </li>
       </ul>
-    </div>
+    </section>
   );
 }
 
 export default Experiencia;
+
